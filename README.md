@@ -1,7 +1,6 @@
 # Title
-  Automatic Captcha Solver
+  Cancer Detector
 # Team Members
   Nick Burris (BurrisNick), Lexi Wrona, Alivia Fisher (add your githubs next to your name)
 # Project Discription 
-  the automatic captcha solver will analyze photos and determine what the captcha is wanting you to indentify. A real captcha  prevents "robot" activity however, when the captcha presents an image the neural network will pick out what is in the image. these items include stop lights, cars, and stairs. Depending on timing componenets, the first task will be to develop a NN that can identify the items inside a captcha by itself. the next step will be to use that baseline to identfy multiple objects in a real captcha image.
-  the dataset that will be used will be a mix of common captcha items: stop lights, cars, and stairs. 
+  This NN will go through images of PET scans and determine if the individual has some form of cancer or tumor growth. Using several different locations of the body, lymph nodes, liver, and lungs to and determine if the image contains a cancerous tumor or if the image contains a healthy organ. the model will be trained on 6 different data sets 3 healthy and 3 cancer containing groups of the lymph nodes, liver, and lungs. 
